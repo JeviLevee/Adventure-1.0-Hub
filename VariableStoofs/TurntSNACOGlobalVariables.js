@@ -13,21 +13,20 @@ var eqawr;
 var eqrfx;
 
 function preload() {
-  items = loadStrings('ItemStoofs/ItemHtml.txt');
-  ammos = loadStrings('ItemStoofs/AmmoName.txt');
-  ammoc = loadStrings('ItemStoofs/AmmoCount.txt');
-  eqnam = loadStrings('ItemStoofs/EquipName.txt');
-  eqatk = loadStrings('ItemStoofs/EquipAtk.txt');
-  eqmag = loadStrings('ItemStoofs/EquipMag.txt');
-  eqdef = loadStrings('ItemStoofs/EquipDef.txt');
-  eqres = loadStrings('ItemStoofs/EquipRes.txt');
-  eqspd = loadStrings('ItemStoofs/EquipSpd.txt');
-  eqstr = loadStrings('ItemStoofs/EquipStr.txt');
-  eqsth = loadStrings('ItemStoofs/EquipSth.txt');
-  eqawr = loadStrings('ItemStoofs/EquipAwr.txt');
-  eqrfx = loadStrings('ItemStoofs/EquipRfx.txt');
+  items = loadStrings('VariableStoofs/ItemStoofs/ItemHtml.txt');
+  ammos = loadStrings('VariableStoofs/ItemStoofs/AmmoName.txt');
+  ammoc = loadStrings('VariableStoofs/ItemStoofs/AmmoCount.txt');
+  eqnam = loadStrings('VariableStoofs/ItemStoofs/EquipName.txt');
+  eqatk = loadStrings('VariableStoofs/ItemStoofs/EquipAtk.txt');
+  eqmag = loadStrings('VariableStoofs/ItemStoofs/EquipMag.txt');
+  eqdef = loadStrings('VariableStoofs/ItemStoofs/EquipDef.txt');
+  eqres = loadStrings('VariableStoofs/ItemStoofs/EquipRes.txt');
+  eqspd = loadStrings('VariableStoofs/ItemStoofs/EquipSpd.txt');
+  eqstr = loadStrings('VariableStoofs/ItemStoofs/EquipStr.txt');
+  eqsth = loadStrings('VariableStoofs/ItemStoofs/EquipSth.txt');
+  eqawr = loadStrings('VariableStoofs/ItemStoofs/EquipAwr.txt');
+  eqrfx = loadStrings('VariableStoofs/ItemStoofs/EquipRfx.txt');
 }
-
 
 function setup() {
 
