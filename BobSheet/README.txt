@@ -1,0 +1,2 @@
+-Make Throwables have actual slots
+-Learn Cookies
