@@ -13,7 +13,7 @@ var eqawr;
 var eqrfx;
 
 function preload() {
-  items = loadStrings('ItemStoofs/ItemHtml.txt');
+  items = loadStrings('VariableStoofs/ItemStoofs/ItemHtml.txt');
   ammos = loadStrings('ItemStoofs/AmmoName.txt');
   ammoc = loadStrings('ItemStoofs/AmmoCount.txt');
   eqnam = loadStrings('ItemStoofs/EquipName.txt');
