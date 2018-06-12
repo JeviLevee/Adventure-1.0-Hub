@@ -1,0 +1,63 @@
+h1 {
+    color:darkblue;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background-color:black;
+}
+
+p {
+    color:white; 
+    font-size: 32px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+select {
+    font-size: 30px;
+    color:white;
+    background-color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.jevicolor {
+    color:red;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.rodrigocolor {
+    color:green;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.cannacolor {
+    color:yellow;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.kjellcolor {
+    color:rebeccapurple;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nocolor {
+    color:grey;
+    font-size: 28px;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+a {
+    color:inherit;
+    text-decoration: none;
+}

@@ -1,0 +1,26 @@
+<span id=[Put an ID here]> Weapon Name <span class=equipbuff> The stats on it </span> <br> </span> 
+<span id=i0001> Small Life Potion <span class=itemeff> 20 LF </span> x<span id=m0001>1 </span> <br></span>  
+<span id=i0002> Medium Life Potion <span class=itemeff> 50 LF </span>x<span id=m0002>1 </span><br></span> 
+TBA
+<span id=i0004> Small Mana Potion <span class=itemeff> 10 MP </span><span id=m0004>1 </span><br></span> 
+<span id=i0005> Medium Mana Potion <span class=itemeff> 20 MP </span><span id=m0005>1 </span><br></span> 
+TBA
+<span id=i0007>Cantine (Liquid,Amount) <br></span> 
+<span id= i0008 class=negaitem> Minusite x<span id=m0008>1 </span><br></span> 
+<span id=i0009> Bone <span id=m0009>1 </span> <br></span> 
+<span id=i0010>Skeletal Heart x<span id=m0010>1 </span><br></span> 
+<span id=i0011>Iron Ingot x<span id=m0011>1 </span><br></span> 
+<span id=i0012>Gold Ingot x<span id=m0012>1 </span><br></span> 
+<span id=i0013>Hound Pelt x<span id=m0013>1</span><br></span> 
+<span id=i0014>Speed Herb x<span id=m0014>1</span><br></span> 
+<span id=i0015>Iron Salvage x<span id=m0015>1 </span><br></span> 
+<span id=i0016>Lantern (Fill?) x<span id=m0016>1 </span><br></span> 
+<span id=i0017>Vulture Meat x<span id=m0017>1 </span><br></span>
+<span id=i0018>Enchanted Feather x<span id=m0018>1 </span><br></span> 
+<span id=i0019>Strength Herb x<span id=m0019>1 </span><br></span> 
+<span id=i0020>Boar Tusk x<span id=m0020>1 </span> <br></span> 
+<span id=i0021>Bandage x<span id=m0021>1 </span> <br> </span> 
+<span id=i0022>Heart Charm <br> </span>
+<span id=i0023>Soul Charm <br> </span>
+<span id=i0024>Pride Charm <br> </span>
+<span id=i0025> Sniper Charm <br> </span>

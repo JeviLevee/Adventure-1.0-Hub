@@ -1,0 +1,26 @@
+0000-Equip Template-<span id=[Put an ID here]> Weapon Name <span class=equipbuff> The stats on it </span> <br> </span> 
+0001-Small Life Potion-<span id=i0001> Small Life Potion <span class=itemeff> 20 LF </span> x<span id=m0001> </span> <br></span>  
+0002-Medium Life Potion-<span id=i0002> Medium Life Potion <span class=itemeff> 50 LF </span>x<span id=m0002> </span><br></span> 
+0003-Large Life Potion-TBA
+0004-Small Mana Potion-<span id=i0004> Small Mana Potion <span class=itemeff> 10 MP </span><span id=m0004> </span><br></span> 
+0005-Medium Mana Potion-<span id=i0005> Medium Mana Potion <span class=itemeff> 25 MP </span><span id=m0005> </span><br></span> 
+0006-Large Mana Potion-TBA
+0007-Cantine-<span id=i0007>Cantine (Liquid,Amount) <br></span> 
+0008-Minusite-<span id= i0008 class=negaitem> Minusite x<span id=m0008> </span><br></span> 
+0009-Bone-<span id=i0009> Bone <span id=m0009> </span> <br></span> 
+0010-Skeletal Heart-span id=i0010>Skeletal Heart x<span id=m0010> </span><br></span> 
+0011-Iron Ingot-<span id=i0011>Iron Ingot x<span id=m0011> </span><br></span> 
+0012-Gold Ingot-<span id=i0012>Gold Ingot x<span id=m0012> </span><br></span> 
+0013-Hound Pelt-<span id=i0013>Hound Pelt x<span id=m0013> </span><br></span> 
+0014-Speed Herb-<span id=i0014>Speed Herb x<span id=m0014> </span><br></span> 
+0015-Iron Salvage-<span id=i0015>Iron Salvage x<span id=m0015> </span><br></span> 
+0016-Lantern-<span id=i0016>Lantern (Fill?) x<span id=m0016> </span><br></span> 
+0017-Vulture Meat-<span id=i0017>Vulture Meat x<span id=m0017> </span><br></span>
+0018-Enchanted Feather-<span id=i0018>Enchanted Feather x<span id=m0018> </span><br></span> 
+0019-Strength Herb-<span id=i0019>Strength Herb x<span id=m0019> </span><br></span> 
+0020-Boar Tusk-<span id=i0020>Boar Tusk x<span id=m0020> </span> <br></span> 
+0021-Bandage-<span id=i0021>Bandage x<span id=m0021> </span> <br> </span> 
+0022-Heart Charm-<span id=i0022>Heart Charm <br> </span>
+0023-Soul Charm-<span id=i0023>Soul Charm <br> </span>
+0024-Pride Charm-<span id=i0024>Pride Charm <br> </span>
+0025-Sniper Charm-<span id=i0025> Sniper Charm <br> </span>

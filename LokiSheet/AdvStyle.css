@@ -1,0 +1,393 @@
+h1 {
+  margin: auto;
+  text-align: center;
+  color: #7f99c1;
+  font-size: 40px;
+}
+
+#Name {
+  border-radius: 25px;
+  background-color: #242526;
+  width: 350px;
+  margin: 0 auto;
+  border: solid #7f99c1;
+  border-width: 2px;
+}
+
+#gold {
+  color: gold;
+  font-weight: bold;
+}
+
+#age {
+  color: #7f99c1;
+  font-weight: bold;
+}
+
+body {
+  margin: auto;
+  width: 1250px;
+  background-color: black;
+}
+
+#stats0 {
+  border-radius: 25px;
+  background-color: #242526;
+  width: 700px;
+  margin: 20px auto;
+  margin-left: 200px;
+  border: solid #ffffff;
+  border-width: 2px;
+  float: left;
+  padding-left: 20px;
+  overflow: hidden;
+}
+
+#other {
+  float: right;
+  background-color: #242526;
+  border-radius: 25px;
+  border: solid #7f99c1;
+  margin-right: 150px;
+  padding: 10px 20px;
+  margin-top: 20px
+}
+
+#repok {
+  color: white;
+  font-weight: bold
+}
+
+h1,
+h2,
+p,
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.1px
+}
+
+#bless {
+  color: white;
+  font-weight: bold;
+}
+
+#lvl {
+  color: white;
+  font-weight: bold;
+}
+
+#exp {
+  color: white;
+  font-weight: bold;
+}
+
+#usspts {
+  color: white;
+  font-weight: bold;
+}
+
+#tspts {
+  color: white;
+  font-weight: bold;
+}
+
+#stats1 {
+  border-radius: 25px;
+  background-color: #242526;
+  width: 890px;
+  margin-left: 200px;
+  border: solid #ffffff;
+  border-width: 2px;
+  padding-left: 20px;
+  margin-top: 200px;
+}
+
+.statn {
+  color: white;
+  text-align: center;
+  font-size: 34px;
+}
+
+#partyboost {
+  color: #ff0064;
+}
+
+#sf {
+  color: #7704cc;
+}
+
+#liv {
+  color: #ff0020;
+}
+
+#str {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.mana {
+  color: #00bbff
+}
+
+#regen {
+  color: #00ff87
+}
+
+.white {
+  color: white;
+  font-weight: bold;
+}
+
+.equipbuff {
+  color: #00aa00;
+}
+
+.lilbigger {
+  font-size: 28px;
+}
+
+#petstat {
+  border-radius: 25px;
+  background-color: #242526;
+  width: 890px;
+  margin-left: 200px;
+  border: solid #ffffff;
+  border-width: 2px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+#invspace {
+  border-radius: 25px;
+  background-color: #242526;
+  width: 890px;
+  margin-left: 200px;
+  border: solid #ffffff;
+  border-width: 2px;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+#equip {
+  font-size: 20px;
+}
+
+.mobigger {
+  font-size: 32px;
+}
+
+.itemeff {
+  color: fuchsia;
+}
+
+.negaitem {
+  color: #5500ff;
+}
+
+#equip2 {
+  font-size: 20px;
+}
+
+#cmd {
+  float: left;
+  position: fixed;
+  font-family: 'Open Sans', sans-serif;
+  color: #7f99c1;
+  background-color: #242526;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 185px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+}
+
+#det {
+  float: left;
+  position: fixed;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #242526;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 185px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 300px;
+}
+
+a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: default;
+}
+
+.linkone {
+  color: gold;
+}
+
+.linkze {
+  color: #c61605;
+}
+
+.linktwo {
+  color: #00ff87;
+}
+
+.linktre {
+  color: #00bbff;
+}
+
+.linkfor {
+  color: #7704cc;
+}
+
+.linkfiv {
+  color: magenta;
+}
+
+#skill {
+  border-radius: 25px;
+  background-color: #242526;
+  width: 890px;
+  margin-left: 200px;
+  border: solid #ffffff;
+  border-width: 2px;
+  padding-left: 20px;
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+
+#skilltitle1 {
+  font-size: 28px;
+  color: #bac3d3;
+}
+
+#skilltitle2 {
+  font-size: 28px;
+  color: #3c4047;
+}
+
+#skilltitle3 {
+  font-size: 28px;
+  color: #a54242;
+}
+
+.hone {
+  border-color: #bac3d3;
+}
+
+.htwo {
+  border-color: #3c4047;
+}
+
+.hthree {
+  border-color: #a54242;
+}
+
+.sklvl {
+  color: #ff2121;
+}
+
+.skpts {
+  color: #0036e8;
+}
+
+.boost1 {
+  color: yellow;
+}
+
+#statpts {
+  color: yellow;
+}
+
+.boost5 {
+  color: yellow;
+}
+
+select {
+  font-family: 'Open Sans', sans-serif;
+  background-color: #7f99c1;
+  font-size: 25px;
+  border: none;
+}
+
+#skl {
+  text-align: center;
+}
+
+#category {
+  font-size: 30px;
+}
+
+.bigboi {
+  font-size: 22px;
+}
+
+.lockbigboii {
+  font-size: 22px;
+  color: #666644;
+}
+
+.bigboii {
+  font-size: 22px;
+  color:yellow;
+}
+.lock {
+  color: #cccccc;
+  font-weight: bold;
+}
+
+.lockequipbuff {
+  color: #447744;
+}
+
+.lockmana {
+  color: #446688;
+}
+
+.locksklvl {
+  color: #772121;
+}
+
+.lockskpts {
+  color: #111253;
+}
+
+.unlock {
+  background-color: gold;
+  border: none;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.upgrade {
+  background-color: #fffa00;
+  border: none;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#savediv {
+  float: left;
+  position: fixed;
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: white;
+  background-color: #242526;
+  border: 2px solid white;
+  border-radius: 25px;
+  width: 185px;
+  height: 330px;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  margin-top: 520px;
+}
+
+#chars {
+  font-size:24px;
+}

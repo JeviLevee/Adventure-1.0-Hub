@@ -1,0 +1,38 @@
+Iron Zweihander
+Iron Broadsword
+Iron Short Sword
+Iron Long Sword
+Iron Lance
+Iron Hammer
+Wooden Longbow
+Wooden Shortbow
+Iron Dagger
+Iron Katana
+Iron Staff
+Crystal Ball
+Iron Ring
+Basic Amulet
+Iron Ball and Chain
+Basic Tome
+TBA
+Clockwork Parasol
+Leather Pants
+Light Full Body Attire
+Small Iron Shield <span class=equipbuff> Def+5* </span>
+Large Iron Shield <span class=equipbuff> Def+8* Res+4* </span>
+Thick Full Body Attire
+Cloak
+Iron Breastplate
+Quiver (20)
+Leather Armor
+Cloth Suit
+Chainmail Suit
+TBA
+Cyberspace Suit
+Jewelled Buckler <span class=equipbuff> Def+20* </span>
+Bone Bow
+Steel Sheila <span class=equipbuff> Def+40* Res+20* </span>
+Minusite Battleaxe
+Steel Shortbow
+Hound Pelt Hood
+Goggles <span class=equipbuff> Style+5 </span>
