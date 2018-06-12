@@ -1,0 +1,1 @@
+-MAKE SURE THAT i_spend under c becomes pricei_
