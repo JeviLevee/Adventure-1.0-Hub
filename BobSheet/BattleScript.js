@@ -199,11 +199,16 @@ function Boost1Spd() {
 }
 
 function boostStats(playerClass) {
-atk = atk + playerClass[0]
-mag = mag + playerClass[1]
-def = def + playerClass[2]
-res = res + playerClass[3]
-spd = spd + playerClass[4]
+atk = atk + Number(playerClass[0])
+mag = mag + Number(playerClass[1])
+def = def + Number(playerClass[2])
+res = res + Number(playerClass[3])
+spd = spd + Number(playerClass[4])
+document.getElementById("atk").innerHTML = atk
+document.getElementById("mag").innerHTML = mag
+document.getElementById("def").innerHTML = def
+document.getElementById("res").innerHTML = res
+document.getElementById("spd").innerHTML = spd
 }
 
 
