@@ -11,6 +11,8 @@ var eqstr;
 var eqsth;
 var eqawr;
 var eqrfx;
+var lightAssassinOdd;
+var lightAssassinEven;
 
 function preload() {
   items = loadStrings('VariableStoofs/ItemStoofs/ItemHtml.txt');
@@ -26,6 +28,9 @@ function preload() {
   eqsth = loadStrings('VariableStoofs/ItemStoofs/EquipSth.txt');
   eqawr = loadStrings('VariableStoofs/ItemStoofs/EquipAwr.txt');
   eqrfx = loadStrings('VariableStoofs/ItemStoofs/EquipRfx.txt');
+  lightAssassinOdd = loadStrings('VariableStoofs/ItemStoofs/ClassStoofs/lightAssassinOddClass.txt');
+  lightAssassinEven = loadStrings('VariableStoofs/ItemStoofs/ClassStoofs/lightAssassinEvenClass.txt');
+
 }
 
 function setup() {
