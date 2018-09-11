@@ -118,7 +118,6 @@ function Update() {
     document.getElementById("us").innerHTML = nousepts
     maxxp = lv * 50 + 50
     document.getElementById("maxxp").innerHTML = maxxp
-    console.log(lvc)
     if (lvc > 0) {
       pts = pts + 1
       lvc = lvc - 1
@@ -204,11 +203,14 @@ mag = mag + Number(playerClass[1])
 def = def + Number(playerClass[2])
 res = res + Number(playerClass[3])
 spd = spd + Number(playerClass[4])
+console.log(atk)
 document.getElementById("atk").innerHTML = atk
 document.getElementById("mag").innerHTML = mag
 document.getElementById("def").innerHTML = def
 document.getElementById("res").innerHTML = res
 document.getElementById("spd").innerHTML = spd
+console.log(atk)
+Update();
 }
 
 
