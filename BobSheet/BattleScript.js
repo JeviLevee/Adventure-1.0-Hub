@@ -123,12 +123,18 @@ function Update() {
     document.getElementById("maxxp").innerHTML = maxxp
     console.log(lvc)
     if (lvc > 0) {
-      pts = pts + 2
+      pts = pts + 1
       lvc = lvc - 1
       $(".boost1").html("&nbsp; &nbsp; +")
-      if (lv % 5 == 0) {
-        mopts = mopts + 1
-        $(".boost5").html("&nbsp; &nbsp; +")
+      if (lv % 2 == 0) {
+        mp = mp + 1
+        mmp = mmp + 1
+        document.getElementById("mmp").innerHTML = mmp
+        document.getElementById("mp").innerHTML = mp
+        boostStats(lightAssassinEven)
+        
+      } else {
+        boostStats(lightAssassinOdd)
       }
     }
   }
@@ -195,49 +201,15 @@ function Boost1Spd() {
   Update();
 }
 
-function Boost5MP() {
-  mopts = mopts - 1
-  mmp = mmp + 3
-  mp = mp + 3
-  document.getElementById("mmp").innerHTML = mmp
-  document.getElementById("mp").innerHTML = mp
-  if (mopts == 0) {
-    $(".boost5").html(null)
-  }
-  Update();
+function boostStats(playerClass) {
+atk = atk + playerClass[0]
+mag = mag + playerClass[1]
+def = def + playerClass[2]
+res = res + playerClass[3]
+spd = spd + playerClass[4]
 }
 
-function Boost5LF() {
-  mopts = mopts - 1
-  mtlf = mtlf + 5
-  tlf = tlf + 5
-  mlf = mtlf * 1.2
-  lf = lf + 6
-  Math.round(mlf)
-  msoul = mlf / 2
-  Math.round(msoul)
-  document.getElementById("mtlf").innerHTML = mtlf
-  document.getElementById("tlf").innerHTML = tlf
-  document.getElementById("mlf").innerHTML = mlf
-  document.getElementById("lf").innerHTML = lf
-  document.getElementById("msoul").innerHTML = msoul
-  if (mopts == 0) {
-    $(".boost5").html(null)
-  }
-  Update();
-}
 
-function Boost5SP() {
-  mopts = mopts - 1
-  nousepts = nousepts + 2
-  totalpts = totalpts + 2
-  document.getElementById("us").innerHTML = nousepts
-  document.getElementById("ts").innerHTML = totalpts
-  if (mopts == 0) {
-    $(".boost5").html(null)
-  }
-  Update();
-}
 
 //Skills
 
