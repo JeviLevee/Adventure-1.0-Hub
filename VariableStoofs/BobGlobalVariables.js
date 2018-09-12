@@ -13,6 +13,7 @@ var eqawr;
 var eqrfx;
 var lightAssassinOdd;
 var lightAssassinEven;
+var saveData;
 
 function preload() {
   items = loadStrings('VariableStoofs/ItemStoofs/ItemHtml.txt');
@@ -28,6 +29,7 @@ function preload() {
   eqsth = loadStrings('VariableStoofs/ItemStoofs/EquipSth.txt');
   eqawr = loadStrings('VariableStoofs/ItemStoofs/EquipAwr.txt');
   eqrfx = loadStrings('VariableStoofs/ItemStoofs/EquipRfx.txt');
+  saveData = loadStrings('VariableStoofs/SaveStoofs/BobSave.txt');
   lightAssassinOdd = loadStrings('VariableStoofs/ItemStoofs/ClassStoofs/lightAssassinOddClass.txt');
   lightAssassinEven = loadStrings('VariableStoofs/ItemStoofs/ClassStoofs/lightAssassinEvenClass.txt');
 

@@ -386,6 +386,22 @@ function GiveBuff() {
     }
 }
 
+function loadEquip(slot, equipid) {
+    if (equipid != NaN) {
+        $("#" + slot).html(eqnam[equipid])
+        $("#a" + slot).html(Number(eqatk[equipid]))
+        $("#m" + slot).html(Number(eqmag[equipid]))
+        $("#d" + slot).html(Number(eqdef[equipid]))
+        $("#r" + slot).html(Number(eqres[equipid]))
+        $("#s" + slot).html(Number(eqspd[equipid]))
+        $("#i" + slot).html(Number(eqstr[equipid]))
+        $("#t" + slot).html(Number(eqsth[equipid]))
+        $("#w" + slot).html(Number(eqawr[equipid]))
+        $("#x" + slot).html(Number(eqrfx[equipid]))
+        yes = 0
+    }
+}
+
 function pickEquip() {
     if (yes == 9.5) {
         add = Number(document.getElementById("command").value)

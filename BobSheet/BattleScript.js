@@ -101,6 +101,54 @@ function Check() {
   nope = 0
 }
 
+function loadChar() {
+  atk = saveData[0]
+  mag = saveData[1]
+  def = saveData[2]
+  res = saveData[3]
+  spd = saveData[4]
+  rep = saveData[5]
+  stg = saveData[6]
+  sth = saveData[7]
+  awr = saveData[8]
+  rfx = saveData[9]
+  coin = saveData[10]
+  nousepts = saveData[11]
+  totalpts = saveData[12]
+  holdxp = saveData[13]
+  lf = saveData[14]
+  mlf = saveData[15]
+  soul = saveData[16]
+  msoul = saveData[17]
+  mp = saveData[18]
+  mmp = saveData[19]
+  skillab1 = saveData[20]
+  skillab2 = saveData[21]
+  skillab3 = saveData[22]
+  skillab4 = saveData[23]
+  skillbb1 = saveData[24]
+  skillbb2 = saveData[25]
+  skillbb3 = saveData[26]
+  skillbb4 = saveData[27]
+  skillcb1 = saveData[28]
+  skillcb2 = saveData[29]
+  skillcb3 = saveData[30]
+  skillcb4 = saveData[31]
+  skillai1 = saveData[32]
+  skillai2 = saveData[33]
+  skillai3 = saveData[34]
+  skillai4 = saveData[35]
+  skillbi1 = saveData[36]
+  skillbi2 = saveData[37]
+  skillbi3 = saveData[38]
+  skillbi4 = saveData[39]
+  skillci1 = saveData[40]
+  skillci2 = saveData[41]
+  skillci3 = saveData[42]
+  skillci4 = saveData[43]
+  
+}
+
 function Update() {
   add = 0
 
