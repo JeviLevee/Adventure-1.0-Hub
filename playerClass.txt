@@ -1,0 +1,69 @@
+class Player {
+  constructor(name) {
+    this.x = 0
+    this.y = 0
+    this.z = 0
+    this.name = name
+   }
+}
+
+class Ninja extends Player {
+  constructor(name, sk3) {
+    this.atk = 15
+    this.mag = 5
+    this.def = 8
+    this.res = 7
+    this.spd = 17
+    this.lf = 35
+    this.mlf = 35
+    this.soul = 17
+    this.msoul = 17
+    this.mp = 6
+    this.mmp = 6
+    this.str = 15
+    this.agi = 10
+    this.rfx = 3
+    this.prc = 0
+    this.sk1 = 'Blade'
+    this.sk2 = 'Engagement'
+    this.sk3 = sk3
+    this.sk3c1 = 'Magic [FireB]'
+    this.sk3c2 = 'Magic []'
+    this.pts1 = [[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    this.pts2 = [[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+    this.pts3 = [[1, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0], [0, 0, 0, 0]]
+   }
+}
+
+class SkBranch {
+  constructor() {
+    this.costs = [];
+    this.splits = [];
+    this.skills = [];
+   }
+}
+
+class SkBlade extends SkBranch {
+  constructor() {
+    this.costs = [5, 8, 12, 20]
+    this.splits = [0, 3, 1, 2]
+    this.skills = [['sShift', 'xSlash','sStrike', 'Parry'],['?'],['?'],['?']]
+   }
+}
+
+class Skill {
+  constructor() {
+    this.effect = 0
+    this.value = 0
+    this.cost = 0
+    this.resource = 0
+    this.functions = [0]
+   }
+
+  use() {
+    for (let x = 0; x < this.functions.length; x++) {
+      this.functions[x]
+    }
+  }
+
+}
