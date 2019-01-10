@@ -9,6 +9,7 @@ class Player {
 
 class Ninja extends Player {
   constructor(name, sk3) {
+	super(name);
     this.atk = 15
     this.mag = 5
     this.def = 8
